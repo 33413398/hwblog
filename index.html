@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="hw的个人博客" />
+    <meta name="Keywords" content="博客、前端、hw博客" />
+    <title>hw的个人博客</title>
+    <link rel="shortcut icon" href="./blogIco.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/jquery.fullPage.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/jquery-1.8.3.min.js"></script>
+    <script src="./js/jquery.fullPage.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/custom.js"></script>
+    <script type="text/javascript" charset="utf-8" src="./js/L2Dwidget.0.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="./js/L2Dwidget.min.js"></script>
+    <script type="text/javascript">
+        L2Dwidget.init({
+            "display": {
+                "superSample": 2,
+                "width": 200,
+                "height": 400,
+                "position": "right",
+                "hOffset": 0,
+                "vOffset": 0
+            }
+        });
+    </script>
+    <style>
+        .section1 {
+            background: url(./image/bjtb.jpg) 50%;
+        }
+        
+        .section2 {
+            background: url(./image/bjtb.jpg) 50%;
+        }
+        
+        .section3 {
+            background: url(./image/bjtb.jpg) 50%;
+        }
+        
+        .section4 {
+            background: url(./image/bjtb.jpg) 50%;
+        }
+        
+        #menu {
+            margin: 0;
+            padding: 0;
+            position: fixed;
+            left: 10px;
+            top: 10px;
+            list-style-type: none;
+            z-index: 70;
+        }
+        
+        #menu li {
+            float: left;
+            margin: 0 10px 0 0;
+            font-size: 14px;
+        }
+        
+        #menu a {
+            float: left;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #fff;
+            color: #333;
+            text-decoration: none;
+        }
+        
+        #menu .active a {
+            color: #fff;
+            background-color: #333;
+        }
+        
+        .section {
+            text-align: center;
+            font: 50px "Microsoft Yahei";
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <ul id="menu">
+        <li data-menuanchor="page1" class="active"><a href="#page1">博主简介</a></li>
+        <li data-menuanchor="page2"><a href="#page2">博客日志</a></li>
+        <li data-menuanchor="page3"><a href="#page3">联系方式</a></li>
+        <li data-menuanchor="page4"><a href="#page4">站点导航</a></li>
+    </ul>
+
+    <div id="dowebok">
+        <div class="section section1">
+            <div class="authur">
+                <ul>
+                    <li><img src="./image/tx.jpg" width="200px" /></li>
+                    <li>姓名：hw</li>
+                    <li>爱好：敲代码、电影、动漫、听音乐、健身</li>
+                    <li>GitHub：<a href="https://github.com/33413398?tab=repositories" target="_blank">点我直达哦~</a></li>
+                    <li>现居地：天津</li>
+                    <li>码龄：一年</li>
+                </ul>
+                <!--SKILLS-->
+                <ul id="skills">
+                    <!--请注意，班级名称表示您的技能的百分比。 即s70 = 70％，s40 = 40％. -->
+                    <li id="skill1" class="s90"><span>HTML5+CSS3</span></li>
+                    <li id="skill2" class="s70"><span>JavaScript</span></li>
+                    <li id="skill3" class="s90"><span>JQuery、Bootstrap、ES6</span></li>
+                    <li id="skill4" class="s80"><span>Vue</span></li>
+                    <li id="skill5" class="s70"><span>React</span></li>
+                    <li id="skill6" class="s90"><span>微信小程序</span></li>
+                    <li id="skill7" class="s80"><span>UniApp</span></li>
+                </ul>
+                <!--end skills-->
+            </div>
+        </div>
+        <div class="section section2">
+            <div class="blogList">
+
+                <div class="img_list">
+                    <ul class="clearfix">
+                        <!-- 第一个 -->
+                        <li>
+                            <div class="w-simImg simImg_spec specFull captionbgFadeInDefault imgScaleBig simImg_spec1">
+                                <div class="image-w ">
+                                    <a href="#">
+                                        <div class="imgBB">
+                                            <div class="img"><img src="./image/tx.jpg" /></div>
+                                        </div>
+                                        <div class="caption w-img-caption">
+                                            <div class="captionbg bg_main"></div>
+                                            <div class="caption-text">
+                                                <div class="caption-text-in">
+                                                    <h3>图文组合一</h3>
+                                                    <p>详细说明详细说</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- 第二个 -->
+                        <li>
+                            <div class="w-simImg simImg_spec specFull captionbgFadeInDefault imgScaleBig simImg_spec2">
+                                <div class="image-w ">
+                                    <a href="#">
+                                        <div class="imgBB">
+                                            <div class="img"><img src="./image/tx.jpg" /></div>
+                                        </div>
+                                        <div class="caption w-img-caption">
+                                            <div class="captionbg bg_main"></div>
+                                            <div class="caption-text">
+                                                <div class="caption-text-in">
+                                                    <h3>图文组合一</h3>
+                                                    <p>详细说明详细说</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="w-simImg simImg_spec specFull captionbgFadeInDefault imgScaleBig simImg_spec1">
+                                <div class="image-w ">
+                                    <a href="#">
+                                        <div class="imgBB">
+                                            <div class="img"><img src="./image/tx.jpg" /></div>
+                                        </div>
+                                        <div class="caption w-img-caption">
+                                            <div class="captionbg bg_main"></div>
+                                            <div class="caption-text">
+                                                <div class="caption-text-in">
+                                                    <h3>图文组合一</h3>
+                                                    <p>详细说明详细说</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="w-simImg simImg_spec specFull captionbgFadeInDefault imgScaleBig simImg_spec1">
+                                <div class="image-w ">
+                                    <a href="#">
+                                        <div class="imgBB">
+                                            <div class="img"><img src="./image/tx.jpg" /></div>
+                                        </div>
+                                        <div class="caption w-img-caption">
+                                            <div class="captionbg bg_main"></div>
+                                            <div class="caption-text">
+                                                <div class="caption-text-in">
+                                                    <h3>图文组合一</h3>
+                                                    <p>详细说明详细说</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="w-simImg simImg_spec specFull captionbgFadeInDefault imgScaleBig simImg_spec1">
+                                <div class="image-w ">
+                                    <a href="#">
+                                        <div class="imgBB">
+                                            <div class="img"><img src="./image/tx.jpg" /></div>
+                                        </div>
+                                        <div class="caption w-img-caption">
+                                            <div class="captionbg bg_main"></div>
+                                            <div class="caption-text">
+                                                <div class="caption-text-in">
+                                                    <h3>图文组合一</h3>
+                                                    <p>详细说明详细说</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section section3">
+            <div class="email">
+                <div>
+                    <i class="glyphicon glyphicon-envelope" aria-hidden="true">：</i>
+                    <span>haowei_web@163.com</span>
+                </div>
+            </div>
+        </div>
+        <div class="section section4">
+            <a href="http://www.frontendjs.com/" target="_blank"><img src="./image/qd.jpg" alt="前站导航" title="前站导航,单击图片即可跳转"></a>
+        </div>
+    </div>
+
+</body>
+
+</html>
